@@ -7,15 +7,9 @@ using namespace std;
 
 int main()
 {
-	int a = 0, b = 0;
-	cin >> a >> b;
-	printf("The number between %d and %d are listed:\n", a, b);
-	
-	int i = a;
-	while (i <= b)
-		printf("%d\n", i++);
-
-
-	
+	int sum = 0;
+	for (int i = -100; i <= 100; ++i)
+		sum += i;
+	cout << sum << endl;
 }
 
